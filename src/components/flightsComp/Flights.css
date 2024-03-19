@@ -1,0 +1,6 @@
+.Flights-box{
+    background: linear-gradient(rgba(0, 0, 0, 0.596) , rgba(0, 0, 0, 0.596)), url("/public/images/flightsImages/flights.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}

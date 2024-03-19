@@ -1,0 +1,19 @@
+.radio-checkbox{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.radio-container input:checked + .radio-checkbox{
+    background-color: #f5b342;
+    border: 1px solid #f5b342;
+}
+
+.number{
+    -moz-appearance: textfield;
+}
+
+.number::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

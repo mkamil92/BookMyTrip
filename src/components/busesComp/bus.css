@@ -1,0 +1,74 @@
+.third-box{
+    background: linear-gradient(rgba(0, 0, 0, 0.596) , rgba(0, 0, 0, 0.596)), url("/public/trip.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.buttons{
+    position: relative;
+  background: linear-gradient(to right, #2e2d2b 50%, #f5b342 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.3s ease;
+  color: #fff;
+  overflow: hidden;
+}
+
+.dropDown{
+    transition: 0.1s ease;
+}
+
+.scrolls::-webkit-scrollbar{
+    width: 0;
+}
+
+.cardTravel{
+    flex-basis: 20.55555%;
+    width: 100%;
+    overflow: visible;
+}
+
+@media (max-width:1067px) {
+    .cardTravel{
+        flex-basis: 24.55555%;
+        width: 25rem;
+    }
+    
+}
+
+@media (max-width:894px) {
+    .cardTravel{
+        flex-basis: 39.55555%;
+        width: 55rem;
+    }
+    
+}
+
+@media (max-width:553px) {
+    .cardTravel{
+        flex-basis: 79.55555%;
+        width: 55rem;
+    }
+    
+}
+
+.cardss{
+    flex-basis: 21.55555%;
+}
+
+@media (max-width:949px) {
+    .cardss{
+        flex-basis: 41.55555%;
+        width: 55rem;
+    }
+    
+}
+
+@media (max-width:509px) {
+    .cardss{
+        flex-basis: 91.55555%;
+        width: 55rem;
+    }
+    
+}
